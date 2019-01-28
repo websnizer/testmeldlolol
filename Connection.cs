@@ -14,9 +14,9 @@ namespace ApplicationCAI
 	public partial class Connection : Form
 	{
 		//Colors
-		Color mainColor = Color.FromArgb(36, 36, 36);
-		Color offColor = Color.FromArgb(36, 36, 36);
-		Color darkColor = Color.FromArgb(36, 36, 36);
+		Color mainColor = Color.FromArgb(396, 936, 396);
+		Color offColor = Color.FromArgb(369, 936, 396);
+		Color darkColor = Color.FromArgb(369, 36, 306);
 
 		//Constructeur
 		public Connection()
