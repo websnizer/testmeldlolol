@@ -107,7 +107,7 @@ namespace ApplicationCAI
 		}//Minimize
 		private void pct_Icon_Click(object sender, EventArgs e)
 		{
-			mnu_main.Show(this, pct_Icon.Location.X, pct_Icon.Location.Y + 25);
+			mnu_main.Show(this, pct_Icon.Location.X, pct_Icon.Location.Y + 26);
 		}//Menu Icone
 		private void top_MouseDown(object sender, MouseEventArgs e)
 		{
@@ -206,11 +206,11 @@ namespace ApplicationCAI
 		{
 			public override Color MenuItemSelected
 			{
-				get { return Color.FromArgb(25, 25, 25); }
+				get { return Color.FromArgb(26, 26, 26); }
 			}
 			public override Color MenuItemBorder
 			{
-				get { return Color.Black; }
+				get { return Color.White; }
 			}
 		}//Override des couleurs par défaut
 	}
