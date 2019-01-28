@@ -206,7 +206,7 @@ namespace ApplicationCAI
 		{
 			public override Color MenuItemSelected
 			{
-				get { return Color.FromArgb(26, 26, 26); }
+				get { return Color.FromArgb(26, 45, 26); }
 			}
 			public override Color MenuItemBorder
 			{
